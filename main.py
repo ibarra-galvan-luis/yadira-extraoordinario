@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from deepface import DeepFace
 
 CORREO_EMISOR = "baryplox@gmail.com"
-PASSWORD_EMISOR = "scor lbfa extg bqzt"
+PASSWORD_EMISOR = "aqui pues era mi clave pero la quite"
 
 def enviar_notificacion(nombre_padre, nombre_alumno, grado_alumno, correo_maestra_destino):
     """Envia un correo automatico a la maestra"""
@@ -140,3 +140,4 @@ def iniciar_sistema():
 
 if __name__ == "__main__":
     iniciar_sistema()
+
