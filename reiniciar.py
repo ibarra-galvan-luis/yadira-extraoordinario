@@ -8,9 +8,9 @@ def limpiar_y_crear_bd():
     if os.path.exists(archivo_bd):
         try:
             os.remove(archivo_bd)
-            print(" Base de datos vieja eliminada con éxito.")
+            print(" Base de datos vieja eliminada con exito.")
         except PermissionError:
-            print("ERROR: Cierra los archivos 'main.py' o 'app.py' antes de ejecutar este script.")
+            print("ERROR: Cierra los archivos 'main.py' o 'app.py' antes de ejecutar esto.")
             return
 
   
